@@ -1,0 +1,218 @@
+body {
+    background-color: white;
+
+}
+.container {
+    width: 70%;
+    background-color: #ffffff;
+    min-height: 800px;
+    float: right;
+    margin-right: 10%;
+    margin-top: 60px;
+}
+.bold_heading {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial;
+
+}
+
+.header {
+    width: 70%;
+    background-color: #9daaff;
+    margin-left: 20%;
+    margin-right: 10%;
+    margin-top: 60px;
+}
+
+
+/* GRIDS FOR CONTAINER */
+
+
+.container_left_grid {
+    width: 20%;
+    background-color: #eeeeee;
+    float:left;
+    min-height: 400px;
+}
+.container_middle_grid {
+    width: 20%;
+    background-color: #dddddd;
+    float: left;
+    min-height: 400px;
+}
+.container_second_middle_grid {
+    width: 20%;
+    background-color: #eeeeee;
+    float: left;
+    min-height: 400px;
+}
+.container_third_middle_grid {
+    width: 20%;
+    background-color: #dddddd;
+    float: left;
+    min-height: 400px;
+}
+.container_right_grid {
+    width: 20%;
+    background-color: #eeeeee;
+    float: left;
+    min-height: 400px;
+}
+.container_left_grid_second_row {
+    width: 20%;
+    background-color: #dddddd;
+    float: left;
+    min-height: 400px;
+}
+.container_middle_grid_second_row {
+    width: 20%;
+    background-color: #eeeeee;
+    float: left;
+    min-height: 400px;
+}
+.container_second_middle_grid_second_row {
+    width: 20%;
+    background-color: #dddddd;
+    float: left;
+    min-height: 400px;
+}
+.container_third_middle_grid_second_row {
+    width: 20%;
+    background-color: #eeeeee;
+    float: left;
+    min-height: 400px;
+}
+.container_right_grid_second_row {
+    width: 20%;
+    background-color: #dddddd;
+    float: left;
+    min-height: 400px;
+}
+.container_left_grid_third_row {
+    width: 20%;
+    background-color: #eeeeee;
+    float: left;
+    min-height: 400px;
+}
+.container_middle_grid_third_row {
+    width: 20%;
+    background-color: #dddddd;
+    float: left;
+    min-height: 400px;
+}
+.container_second_middle_grid_third_row {
+    width: 20%;
+    background-color: #eeeeee;
+    float: left;
+    min-height: 400px;
+}
+.container_third_middle_grid_third_row {
+    width: 20%;
+    background-color: #dddddd;
+    float: left;
+    min-height: 400px;
+}
+.container_right_grid_third_row {
+    width: 20%;
+    background-color: #eeeeee;
+    float: left;
+    min-height: 400px;
+}
+.container_left_grid_fourth_row {
+    width: 20%;
+    background-color: #dddddd;
+    float: left;
+    min-height: 400px;
+}
+.container_middle_grid_fourth_row {
+    width: 20%;
+    background-color: #eeeeee;
+    float: left;
+    min-height: 400px;
+}
+.container_second_middle_grid_fourth_row {
+    width: 20%;
+    background-color: #dddddd;
+    float: left;
+    min-height: 400px;
+}
+.container_third_middle_grid_fourth_row {
+    width: 20%;
+    background-color: #eeeeee;
+    float: left;
+    min-height: 400px;
+}
+.container_right_grid_fourth_row {
+    width: 20%;
+    background-color: #dddddd;
+    float: left;
+    min-height: 400px;
+}
+
+
+    /* END OF CONTAINER GRIDS */
+
+
+
+    /* Container sections for content (paragraphs, etc.) */
+
+
+.artist_profile {
+    width: 60%;
+    background-color: #ffffff;
+    float: left;
+    margin: 10px 10px 0px 0px;
+    padding: 5px 5px 5px 5px;
+
+}
+.artist_picture {
+    float: left;
+    margin: 10px 10px 10px 10px;
+
+}
+#nav {
+    background-color: darkblue;
+    position: fixed;
+    width: 105%;
+    top: 0;
+    margin-left: -8px;
+    min-height: 5%;
+}
+#nav_wrapper {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 32px;
+    text-align: center;
+    background-color: darkblue;
+
+}
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+#nav ul li {
+    display: inline-block;
+}
+#nav ul li:hover {
+    background-color: #5a78ff;
+    color: white;
+}
+#nav ul li a {
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#nav ul li a:visited {
+    text-decoration: none;
+}
+
+#logo {
+    width: 11%;
+    float: left;
+    background-color: #ffffff;
+    margin-top: 60px;
+    margin-left: 9%;
+}
