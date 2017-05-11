@@ -1,0 +1,143 @@
+/* CONTAINER GRIDS FOR CONTENT TO BE PLACED IN */
+
+
+.container {
+    width: 90%;
+    background-color: darkblue;
+    min-height: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+/*light blue*/
+.leftcontainer {
+    width: 15%;
+    background-color: white;
+    min-height: 600px;
+    float: left;
+    margin: 0 auto;
+}
+
+.middlecontainer {
+    width: 70%;
+    background-color: cadetblue;
+    min-height: 600px;
+    margin: 0 auto;
+    float: left;
+
+    font-size: x-large;
+    text-align: right;
+}
+/*dodgerblue*/
+.rightcontainer {
+    width: 15%;
+    background-color: white;
+    min-height: 600px;
+    float: left;
+    margin: 0 auto;
+}
+
+
+/* NAVIGATION BAR */
+
+
+#nav {
+    background-color: darkblue;
+    position: fixed;
+    width: 105%;
+    top: 0;
+    margin-left: -8px;
+    min-height: 5%;
+    color: white;
+}
+#nav_wrapper {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 32px;
+    text-align: center;
+    background-color: darkblue;
+}
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+#nav ul li {
+    display: inline-block;
+    color: white;
+}
+#nav ul li:hover {
+    background-color: #5a78ff;
+    color: white;
+}
+#nav ul li a {
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+#nav ul li a:visited {
+    text-decoration: none;
+    color: white;
+}
+#nav a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* LOGO SECTION */
+.logoheader {
+    width: 100%;
+    background-color: #ffffff;
+    min-height: 330px; /* 230 px for the logo + 100px for space */
+}
+#headerlogo {
+    width: 647px;
+    height: 230px;
+    margin-left: 26.090170%;
+
+}
+
+
+.bold_heading {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial;
+
+}
+.artist_profile {
+    width: 60%;
+    background-color: cadetblue;
+    float: left;
+    margin: 10px 10px 0px 0px;
+    padding: 5px 5px 5px 5px;
+    font-size: x-large;
+    text-align: left;
+}
+.artist_picture {
+    float: left;
+    margin: 10px 10px 10px 10px;
+    width: 300px;
+    height: 393px;
+
+}
+p{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding:0px;
+}
+p,h3{
+    margin-left: 10px;
+    margin-top: 15px;
+    text-align: center;
+}
+.back {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 32px;
+    text-align: center;
+    background-color: darkblue;
+    padding-bottom: 14px;
+    color: white;
+}
